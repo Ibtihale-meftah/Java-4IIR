@@ -228,6 +228,8 @@ class GestionTaches {
 ***REMARQUE: le résultat de cette execution est le suivant:
 Tache{description='Faire les devoirs', estComplete=true}
 Tache{description='Préparer la présentation', estComplete=false}
+Une LinkedList est une structure de données dynamique qui permet de stocker des éléments de manière séquentielle, où chaque élément contient une valeur et une référence vers l’élément suivant.
+Contrairement aux tableaux, la taille d’une LinkedList n’est pas fixe, ce qui la rend particulièrement utile pour les opérations fréquentes d’ajout ou de suppression d’éléments.
 
 *****
 
@@ -240,6 +242,24 @@ Tache{description='Préparer la présentation', estComplete=false}
 5. Quelles sont les différences majeures entre ArrayList et LinkedList ?
 
 ***
+### Réponces : 
+1. *ArrayList*, L’accès à un élément par son index dans une ArrayList se fait en temps constant O(1), car elle est basée sur un tableau dynamique qui permet l’accès direct aux cases mémoire.
+2. **ArrayList** : L’ajout au milieu nécessite un décalage des éléments → complexité O(n)
+
+   **LinkedList** : L’ajout au milieu nécessite de parcourir la liste jusqu’à la position voulue → O(n), mais l’insertion elle-même est O(1) une fois la position trouvée.
+3.*LinkedList* : Chaque élément (nœud) contient une référence (pointeur) vers le précédent et le suivant.
+Cela permet une organisation dynamique sans besoin de tableau sous-jacent.
+4.Oui. Les collections de type List (comme ArrayList ou LinkedList) acceptent les doublons et conservent l’ordre d’insertion.
+5. | Critère                     | ArrayList                   | LinkedList                         |
+| --------------------------- | --------------------------- | ---------------------------------- |
+| **Structure interne**       | Tableau dynamique           | Liste chaînée (pointeurs)          |
+| **Accès par index**         | Très rapide (O(1))          | Lent (O(n))                        |
+| **Insertion / suppression** | Lente (O(n))                | Rapide (O(1) après parcours)       |
+| **Mémoire utilisée**        | Moins de mémoire            | Plus de mémoire (pointeurs)        |
+| **Itération**               | Plus rapide                 | Plus lente                         |
+| **Utilisation recommandée** | Accès fréquent aux éléments | Insertions/suppressions fréquentes |
+
+*******
 
 ## Interface Set
 
@@ -335,7 +355,10 @@ class GestionEtudiants {
 }
 ```
 
-
+*****Résultat de l'execution:
+ Etudiant{nom='Sara', numero=102}
+Etudiant{nom='Ali', numero=101}
+**** on remarque que l'élément dupliqué n'est stoqué qu'une seule fois car on ne peut jamais trouver deux élements qui ont le meme hashcode ******
 ***
 
 ## LinkedHashSet
@@ -366,6 +389,14 @@ public class ExempleLinkedHashSet {
 }
 ```
 
+********
+Dans ce code, nous utilisons une *LinkedHashSet*, qui est une collection sans doublons et ordonnée selon l’ordre d’insertion.
+Le deuxième appel noms.add("Ali") est ignoré, car une Set ne permet pas les valeurs en double.
+Elle vérifie automatiquement si l’élément existe déjà avant de l’ajouter.
+Ainsi, le résultat affiché est :
+Ali
+Sara
+Les doublons comme "Ali" sont automatiquement supprimés à l’ajout.
 
 ***
 
@@ -427,7 +458,14 @@ public class Personne implements Comparable<Personne> {
 }
 ```
 
+## Résultat d'éxecution: ##
+Alice (30 ans)
+Bob (25 ans)
+Claire (28 ans)
 
+Process finished with exit code 0
+
+le tri est fait par rapport aux noms 
 ***
 
 ## TreeSet - Partie 3
@@ -474,6 +512,12 @@ public class Personne {
     }
 }
 ```
+****#Résultats de l'éxecution:#
+Bob (25 ans)
+Claire (28 ans)
+Alice (30 ans)
+
+por ce programme on a trier les données en se basant sur l'age de chaqu'un grace à la fonction Comparator implémenté pour les TreeSet.
 
 
 ### Quiz sur les Sets (HashSet, LinkedHashSet, TreeSet)
@@ -527,6 +571,12 @@ public class ExemplePriorityQueue {
 }
 ```
 
+****#Résultats d'éxecution:#
+10
+20
+30
+
+Process finished with exit code 0
 
 ***
 
@@ -566,6 +616,13 @@ public class ExempleArrayDeque {
     }
 }
 ```
+
+*****#Résultat d'éxecution:
+
+Premier
+Dernier
+
+Process finished with exit code 0
 
 
 ### Quiz sur les Queues et Deques
@@ -826,6 +883,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
