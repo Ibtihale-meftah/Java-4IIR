@@ -247,12 +247,11 @@ Contrairement aux tableaux, la taille d’une LinkedList n’est pas fixe, ce qu
 2. **ArrayList** : L’ajout au milieu nécessite un décalage des éléments → complexité O(n)
 
    **LinkedList** : L’ajout au milieu nécessite de parcourir la liste jusqu’à la position voulue → O(n), mais l’insertion elle-même est O(1) une fois la position trouvée.
-3.*LinkedList* : Chaque élément (nœud) contient une référence (pointeur) vers le précédent et le suivant.
+3. *LinkedList* : Chaque élément (nœud) contient une référence (pointeur) vers le précédent et le suivant.
 Cela permet une organisation dynamique sans besoin de tableau sous-jacent.
-4.Oui. Les collections de type List (comme ArrayList ou LinkedList) acceptent les doublons et conservent l’ordre d’insertion.
-5. | Critère                     | ArrayList                   | LinkedList                         |
-| --------------------------- | --------------------------- | ---------------------------------- |
-| **Structure interne**       | Tableau dynamique           | Liste chaînée (pointeurs)          |
+4. Oui. Les collections de type List (comme ArrayList ou LinkedList) acceptent les doublons et conservent l’ordre d’insertion.
+5.                                                 
+| **Structure interne** :     ArrayList   : Tableau dynamique ,  LinkedList:Liste chaînée (pointeurs)         
 | **Accès par index**         | Très rapide (O(1))          | Lent (O(n))                        |
 | **Insertion / suppression** | Lente (O(n))                | Rapide (O(1) après parcours)       |
 | **Mémoire utilisée**        | Moins de mémoire            | Plus de mémoire (pointeurs)        |
@@ -883,6 +882,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
