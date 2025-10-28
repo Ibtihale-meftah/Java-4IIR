@@ -225,6 +225,12 @@ class GestionTaches {
 ```
 
 
+***REMARQUE: le résultat de cette execution est le suivant:
+Tache{description='Faire les devoirs', estComplete=true}
+Tache{description='Préparer la présentation', estComplete=false}
+
+*****
+
 ### Quiz sur les Listes (ArrayList et LinkedList)
 
 1. Quelle implémentation offre un accès en temps constant par index ?
@@ -820,6 +826,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
