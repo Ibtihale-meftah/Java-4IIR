@@ -143,7 +143,9 @@ class GestionBibliotheque {
 
 
 ***\\Commentaire:
-pour ce code il nous monque deux attributs l'un au niveau de la classe LIVRE de type GestionBibliotéque, et l'autre au niveau de la classe GestionBibliothéque, pour exprimer l'association 1 à plusieur entre les deux classes.
+pour ce code il nous monque deux attributs l'un au niveau de la classe LIVRE de type GestionBibliotéque,c'est un attribut seul, et l'autre au niveau de la classe GestionBibliothéque,de type Liste de Livres, pour exprimer l'association 1 à plusieur entre les deux classes.
+
+en ce qui concerne le type ArrayListe c'est une liste de taille dynamique alors c'est un tableau dont la taille peux changer en fonction des variables/données du programme.
 <img width="143" height="149" alt="image" src="https://github.com/user-attachments/assets/2aebe25b-0813-454c-beb5-2f0f4cd682e3" />
 
 
@@ -151,7 +153,7 @@ pour ce code il nous monque deux attributs l'un au niveau de la classe LIVRE de 
 
 ### Définition
 
-LinkedList est une structure de données en liste chaînée doublement liée permettant des insertions et suppressions efficientes au début, à la fin et au milieu de la liste.
+LinkedList est une structure de données en liste chaînée doublement liée (transparante à l'utilisateur) permettant des insertions et suppressions efficientes au début, à la fin et au milieu de la liste.
 
 ### Comparaison avec ArrayList
 
@@ -818,6 +820,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
