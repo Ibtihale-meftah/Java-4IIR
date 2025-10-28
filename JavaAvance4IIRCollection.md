@@ -142,7 +142,10 @@ class GestionBibliotheque {
 ```
 
 
-***
+***\\Commentaire:
+pour ce code il nous monque deux attributs l'un au niveau de la classe LIVRE de type GestionBibliotéque, et l'autre au niveau de la classe GestionBibliothéque, pour exprimer l'association 1 à plusieur entre les deux classes.
+<img width="143" height="149" alt="image" src="https://github.com/user-attachments/assets/2aebe25b-0813-454c-beb5-2f0f4cd682e3" />
+
 
 ## LinkedList - Partie 1
 
@@ -815,6 +818,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
