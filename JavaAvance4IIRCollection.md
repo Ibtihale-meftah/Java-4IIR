@@ -31,7 +31,7 @@ Le framework Collections repose sur une architecture hiérarchique d'interfaces 
 
 Diagramme simplifié :
 
-<img src="collection.jpeg" style="height:464px;margin-right:432px"/>
+<img src="mef.jpg" style="height:464px;margin-right:432px"/>
 
 
 
@@ -826,6 +826,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
