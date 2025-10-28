@@ -513,7 +513,9 @@ public class Personne {
 ```
 ****#Résultats de l'éxecution:#
 Bob (25 ans)
+
 Claire (28 ans)
+
 Alice (30 ans)
 
 por ce programme on a trier les données en se basant sur l'age de chaqu'un grace à la fonction Comparator implémenté pour les TreeSet.
@@ -742,6 +744,13 @@ public class GestionProjet {
 }
 ```
 
+********* #Résultats d'éxecution #
+Employe{nom='Fatima', id=2} travaille sur Projet{nomProjet='Projet B'}
+Employe{nom='KHADIJA', id=2} travaille sur Projet{nomProjet='Projet 200'}
+Employe{nom='Ahmed', id=1} travaille sur Projet{nomProjet='Projet A'}
+Employe{nom='ALI', id=1} travaille sur Projet{nomProjet='Projet 15'}
+
+Process finished with exit code 0
 
 ***
 
@@ -768,7 +777,12 @@ public class ExempleLinkedHashMap {
     }
 }
 ```
+*** #Résultats d'éxecution#
+1 => Un
+2 => Deux
+3 => Trois
 
+Process finished with exit code 0
 
 ***
 
@@ -840,6 +854,13 @@ public class GestionTreeMap {
 }
 ```
 
+***#Résultats d'éxecution:#***
+P001 => Projet Alpha
+P002 => Projet Beta
+P003 => Projet Gamma
+
+Process finished with exit code 0
+
 
 ### Quiz sur les Maps
 
@@ -882,6 +903,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
