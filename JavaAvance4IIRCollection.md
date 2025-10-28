@@ -3,6 +3,7 @@
 **Auteur : A. Larhlimi**
 
 *Destiné aux étudiants de 4 IIR - EMSI Casablanca*
+**Fait par : Ibtihale Meftah**
 
 ***
 
@@ -812,6 +813,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
